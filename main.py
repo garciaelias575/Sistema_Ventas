@@ -144,7 +144,7 @@ class SistemaInventario:
         self.guardar_y_refrescar()
 
     def registrar_venta(self):
-        # En un sistema pro, esto abriría un modal de búsqueda
+
         codigo = self.entries['código'].get()
         try:
             cantidad = int(self.entries['cantidad'].get())
